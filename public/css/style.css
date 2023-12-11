@@ -286,6 +286,7 @@ footer p {
 
 
 @media (max-width:768px) {
+    
     .main_header_left {
         height: auto;
         margin: 5rem 0;
@@ -314,4 +315,10 @@ footer p {
     .tempInformation{
         width: auto;
     }
+    .middle_layer.tempFontSize p{
+        font-size: 5rem; /* Adjust the font size to your preference */
+      }
+      .middle_layer.tempFontSize p sup{
+        font-size: 4rem; /* Adjust the font size to your preference */
+      }
 }
